@@ -2,6 +2,8 @@ import {CompositeLayer} from '@deck.gl/core';
 import {IconLayer} from '@deck.gl/layers';
 import Supercluster from 'supercluster';
 
+
+// only necessary for clustering
 function getIconName(size) {
   if (size === 0) {
     return '';
